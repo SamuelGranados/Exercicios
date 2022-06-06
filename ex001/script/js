@@ -1,0 +1,16 @@
+let numero = 5;
+
+if (numero > 10) { 
+console.log("Numero é maior que 10");
+console.log("portanto, é maior que 1 tambem");
+console.log("portanto, é maior que 1 tambem");
+console.log("portanto, é maior que 1 tambem");
+console.log("portanto, é maior que 1 tambem");
+}
+
+else { 
+console.log("o numero nao e maior que 10");
+console.log("o numero nao e maior que 10");
+console.log("o numero nao e maior que 10");
+console.log("o numero nao e maior que 10");
+}

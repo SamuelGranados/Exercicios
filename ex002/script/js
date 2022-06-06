@@ -1,0 +1,88 @@
+let usuario1 = "Aaan";
+let emailusuario1 = "ana@recode.org.br";
+let senhadousuario1 = "recodePro"
+
+if (usuario1 == "Ana" && senhadousuario1 == "recodePro"){
+    console.log("Usuario(a) autenticado com sucesso");
+} 
+else if
+    (emailusuario1 == "ana@recode.org.br" && senhadousuario1 == "recodePro"){
+        console.log("Usuario(a) autenticado com sucesso");
+    }
+    else {
+        console("Usuario e/ou senha invalido")
+    }
+
+    let mes = 3;
+
+    switch(mes) {
+        case 1:
+        case 2:
+        case 3:
+            console.log("Primeiro Trimestre");
+            break;
+        case 4:
+        case 5:
+        case 6:
+            console.log("Segundo Trimestre");
+            break;
+        case 7:
+        case 8:
+        case 9:
+            console.log("Terceiro Trimestre");
+            break;
+        default:
+            console.log("Quarto Trimestre");                                    
+    }
+
+    /*
+    if(mes >= 1 && mes <=3)
+    console.log("Primeiro Trimestre");
+    else if(mes >= 4 && mes <=6)
+    console.log("Segundo Trimestre");
+    else if(mes >= 7 && mes <= 9)
+    console.log("Terceiro trimestre");
+    else 
+    console.log("Quarto Trimestre"); */
+
+
+    // 1 - iniciar
+    // 2 - pausar
+    // 3 - avançar
+    // 4 - retroceder
+    // 5 - desligar
+
+    /*
+    if(numero == 1)
+     console.log("iniciar");
+    else if(numero == 2)
+     console.log("pausar");
+    else if(numero == 3)
+     console.log("avançar");
+    else if(numero == 4)
+     console.log("retroceder");
+    else if(numero == 5)
+     console.log("desligar");
+    else 
+    console.log("Comando invalido");*/
+
+    /*
+    switch(numero){
+        case 1:
+            console.log("Iniciar");
+            break;
+        case 2:
+            console.log("Pausar");
+            break;
+        case 3:
+             console.log("Avançar");
+             break;
+        case 4:
+            console.log("Retroceder");
+            break;
+        case 5:
+            console.log("Desligar");
+        default:
+        console.log("Comando Invalido");             
+    } */
+
